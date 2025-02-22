@@ -1,0 +1,65 @@
+Defect Life Cycle States
+The different states of a bug in the software bug life cycle (sblc) are as follows:
+
+#1. New
+When a tester finds a new defect. He should provide a proper Defect document to the Development team to reproduce and fix the defect. In this state, the status of the defect posted by the tester is “New”
+
+ 
+#2. Assigned
+Defects that are in the status of New will be approved (if valid) and assigned to the development team by Test Lead/Project Lead/Project Manager. Once the defect is assigned then the status of the bug changes to “Assigned”
+
+#3. Open
+The development team starts analyzing and works on the defect fix
+
+#4. Fixed
+When a developer makes the necessary code change and verifies the change, then the status of the bug will be changed as “Fixed” and the bug is passed to the testing team.
+
+ 
+#5. Test
+If the status is “Test”, it means the defect is fixed and ready to do test whether it is fixed or not.
+
+
+ 
+#6. Verified
+The tester re-tests the bug after it got fixed by the developer. If there is no bug detected in the software, then the bug is fixed and the status assigned is “verified.”
+
+#7. Closed
+After verified the fix, if the bug is no longer exits then the status of the bug will be assigned as “Closed.”
+
+ 
+#8. Reopen
+If the defect remains the same after the retest, then the tester posts the defect using the defect retesting document and changes the status to “Reopen”. Again the bug goes through the life cycle to be fixed.
+
+
+#9. Duplicate
+If the defect is repeated twice or the defect corresponds to the same concept of the bug, the status is changed to “duplicate” by the development team.
+
+#10. Deferred
+In some cases, the Project Manager/Lead may set the bug status as deferred.
+
+ 
+If the bug found during the end of the release and the bug is minor or not important to fix immediately.
+If the bug is not related to the current build.
+If it is expected to get fixed in the next release.
+The customer is thinking to change the requirement.
+In such cases the status will be changed as “deferred” and it will be fixed in the next release.
+#11. Rejected
+If the system is working according to specifications and the bug is just due to some misinterpretation (such as referring to old requirements or extra features) then the Team lead or developers can mark such bugs as “Rejected”
+
+Some other statuses are:
+
+#12. Cannot be fixed
+Technology not supporting, Root of the product issue, Cost of fixing a bug is more
+
+ 
+#13. Not Reproducible
+Platform mismatch, improper defect document, data mismatch, build mismatch, inconsistent defects
+
+#14. Need more information
+If a developer is unable to reproduce the bug as per the steps provided by a tester then the developer can change the status as “Need more information’. In this case, the tester needs to add detailed reproducing steps and assign bugs back to the development team for a fix. This won’t happen if the tester writes a good defect document.
+
+Conclusion
+This is all about the Software Bug Life Cycle / Defect Life Cycle. Some companies use the id’s of bugs in the RTM (Requirement Traceability Matrix) to map with the test cases.
+
+ 
+Recommended reading:
